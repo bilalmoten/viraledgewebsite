@@ -2747,7 +2747,7 @@ body.boxed-wrapper {
   border-bottom: 0px solid var(--moniz-extra, #e4e4ea);
 }
 
-.faq-one-accrodion .accrodion-title h4 {
+.faq-one-accrodion .accrodion-title h3 {
   margin: 0;
   font-size: 18px;
   font-weight: 700;
@@ -2760,7 +2760,7 @@ body.boxed-wrapper {
 
 
 @media only screen and (max-width: 600px) {
-  .faq-one-accrodion .accrodion-title h4 {
+  .faq-one-accrodion .accrodion-title h3 {
     font-size: 14px;
     line-height: 20px;
     padding-right: 30px;
