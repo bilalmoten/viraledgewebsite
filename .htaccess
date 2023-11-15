@@ -30,4 +30,7 @@
   # Others
   ExpiresByType application/pdf "access plus 1 year"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+
+  # Add Cache-Control for all static assets
+  Header set Cache-Control "max-age=31536000, public"
 </IfModule>
