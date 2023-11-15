@@ -11779,7 +11779,7 @@ body.boxed-wrapper {
   background-color: var(--moniz-primary, #ee37b9);
   color: var(--moniz-primary, #fbdf4d);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 700; 
   padding: 14px 50px;
   -webkit-transition: 500ms;
   transition: 500ms;
