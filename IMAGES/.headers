@@ -1,0 +1,11 @@
+[
+  {
+    "applyTo": "section-end-cta.png",
+    "headers": [
+      {
+        "name": "cache-control",
+        "value": "max-age=600000"
+      }
+    ]
+  }
+]
