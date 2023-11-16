@@ -33,6 +33,7 @@
     url('font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* FONT AWESOME CORE
  * -------------------------- */
