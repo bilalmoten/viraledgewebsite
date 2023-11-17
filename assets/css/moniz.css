@@ -236,14 +236,17 @@ ul {
   border-radius: 32px;
   overflow: hidden;
 }
-
+/* 
+.thm-btn .col-yellow-pink {
+  color: var(--moniz-base, #fbdf4d);
+} */
 .thm-btn:before {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 85px;
   height: 100%;
-  background-color: rgba(var(--moniz-black-rgb, 30, 30, 34), 1);
+  background-color: #fbdf4d;
   opacity: 0.1;
   content: "";
   border-radius: 32px;
@@ -254,7 +257,7 @@ ul {
 }
 
 .thm-btn:hover {
-  color: var(--moniz-base, #fbdf4d);
+  color:  #ee37b9;
 }
 
 .thm-btn:hover::before {
@@ -263,11 +266,33 @@ ul {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
   border-radius: 0;
-  background-color: var(--moniz-black, #1e1e22);
+  background-color:  #fbdf4d;
 }
+
+
+.reverse-colours {
+  background-color: #fbdf4d;
+  color: #ee37b9;
+}
+
+.reverse-colours::before {
+  background-color: #ee37b9;
+}
+
+.reverse-colours:hover::before {
+  background-color: #ee37b9;
+}
+
+.reverse-colours:hover {
+  color: #fbdf4d;
+}
+
 
 .thm-btn span {
   position: relative;
+  /* font-size: 12px; */
+  /* line-height: 15px; */
+  /* font-weight: 100; */
 }
 
 .thm-btn--dark {
@@ -2759,11 +2784,17 @@ body.boxed-wrapper {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .faq-one-accrodion .accrodion-title h3 {
     font-size: 14px;
     line-height: 20px;
     padding-right: 30px;
+  }
+
+  .faq-one-accrodion .accrodion-content .inner p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-right: 12px;
   }
  
   .faq-one-accrodion .accrodion-title {
@@ -2771,6 +2802,8 @@ body.boxed-wrapper {
   }
 
 }
+
+
 
 .faq-one-accrodion .accrodion + .accrodion {
   margin-top: 20px;
@@ -2848,7 +2881,7 @@ body.boxed-wrapper {
   margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   
   .faq-one-accrodion .accrodion-content .inner p {
     font-size: 12px;
@@ -2859,7 +2892,7 @@ body.boxed-wrapper {
     padding: 8px 8px 8px 8px;
   }
 
-}
+} */
 
 .we-change__right {
   position: relative;
@@ -3183,7 +3216,7 @@ body.boxed-wrapper {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .services-one {
     padding: 30px 0 7.5px;
   }
@@ -11818,4 +11851,23 @@ body.boxed-wrapper {
 
 .thm-btndd span {
   position: relative;
+}
+
+@media (max-width: 800px) {
+  .hide-on-mobile {
+      display: none;
+  }
+  .section-title__title{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .thm-btn {
+    font-size: 12px;
+    padding: 12px 30px;
+  }
+  .thm-btndd {
+    font-size: 12px;
+    padding: 12px 30px;
+    line-height: 15px;
+  }
 }
