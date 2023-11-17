@@ -246,7 +246,7 @@ ul {
   bottom: 0;
   width: 85px;
   height: 100%;
-  background-color: #fbdf4d;
+  background-color: black;
   opacity: 0.1;
   content: "";
   border-radius: 32px;
@@ -257,7 +257,7 @@ ul {
 }
 
 .thm-btn:hover {
-  color:  #ee37b9;
+  color:  #fbdf4d;
 }
 
 .thm-btn:hover::before {
@@ -266,7 +266,7 @@ ul {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
   border-radius: 0;
-  background-color:  #fbdf4d;
+  background-color: black;
 }
 
 
@@ -276,11 +276,11 @@ ul {
 }
 
 .reverse-colours::before {
-  background-color: #ee37b9;
+  background-color: black;
 }
 
 .reverse-colours:hover::before {
-  background-color: #ee37b9;
+  background-color: black;
 }
 
 .reverse-colours:hover {
@@ -11870,4 +11870,9 @@ body.boxed-wrapper {
     padding: 12px 30px;
     line-height: 15px;
   }
+}
+
+.center-align {
+  text-align: center;
+  margin: auto;
 }
