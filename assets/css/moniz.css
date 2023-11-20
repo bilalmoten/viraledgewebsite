@@ -3130,19 +3130,21 @@ body.boxed-wrapper {
   padding: 100px 60px 50px;
   text-align: center;
   margin-bottom: 105px;
+  /* background-color: var(--moniz-primary, #ee37b9);
+  color: var(--moniz-base, #fbdf4d); */
 }
 
 
 .services-one__icon {
   position: absolute;
   border-radius: 50%;
-  background-color: white;
+  /* background-color: white; */
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07);
   width: 150px;
   height: 150px;
   font-size: 64px;
-  color: var(--moniz-black, #1e1e22);
+  /* color: var(--moniz-black, #1e1e22); */
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   display: -webkit-box;
@@ -3158,6 +3160,8 @@ body.boxed-wrapper {
   top: -75px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  background-color: var(--moniz-primary, #ee37b9);
+  color: var(--moniz-base, #fbdf4d);
 }
 
 .services-one__single:hover .services-one__icon {
@@ -3176,6 +3180,7 @@ body.boxed-wrapper {
   color: var(--moniz-black, #1e1e22);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  /* color: var(--moniz-primary, #ee37b9); */
 }
 
 .services-one__single:hover .services-one__title a {
@@ -4533,11 +4538,11 @@ body.boxed-wrapper {
 }
 
 .footer-widget__explore-list li a:hover {
-  padding-left: 15px;
+  /* padding-left: 15px; */
   color: var(--moniz-base, #fbdf4d);
 }
 
-.footer-widget__explore-list li a:before {
+/* .footer-widget__explore-list li a:before {
   position: absolute;
   top: 45%;
   left: 0;
@@ -4556,7 +4561,7 @@ body.boxed-wrapper {
 
 .footer-widget__explore-list li a:hover:before {
   opacity: 1;
-}
+} */
 
 .footer-widget__contact {
   position: relative;
@@ -4597,7 +4602,7 @@ body.boxed-wrapper {
 
 .footer-widget__contact-mail {
   font-size: 18px;
-  color: #ee37b9;
+  color: #9e9ea7;
   font-weight: 400;
   position: relative;
   display: inline-block;
@@ -4610,7 +4615,7 @@ body.boxed-wrapper {
 }
 .footer-widget__contact-phone {
   font-size: 18px;
-  color: #ee37b9;
+  color: #9e9ea7;
   font-weight: 700;
   position: relative;
   display: block;
@@ -11875,4 +11880,114 @@ body.boxed-wrapper {
 .center-align {
   text-align: center;
   margin: auto;
+}
+/* for services section new  */
+
+.service2s-section {
+  background: #134074; /* Adjust color based on your branding */
+color: #ffffff;
+padding: 50px 0;
+}
+
+.section2-title__title {
+  color: #ee37b9; 
+/* Or any other vibrant color that matches your brand */
+margin-bottom: 30px;
+}
+
+.service2-card {
+background: #1e1e1e; /* Slightly lighter background for the card */
+border-radius: 8px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, .15);
+margin: 15px;
+overflow: hidden;
+text-align: center;
+}
+
+.service2-header {
+background: #1a5a96; /* Match with your branding */
+padding: 20px;
+position: relative;
+}
+
+.service2-icon {
+/* Add styles for icon here */
+display: block;
+margin: 0 auto 10px;
+}
+
+.service2-title {
+font-size: 1.5em;
+margin-bottom: 10px;
+}
+
+.service2-price {
+font-size: 2.5em;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.btn2-get-started {
+border: 2px;
+/* background-color: #000; */
+/* color: #134074; */
+padding: 10px 20px;
+margin-bottom: 20px;
+font-weight: 700;
+cursor: pointer;
+position: relative;
+color: var(--moniz-gray, #717178);
+-webkit-transition: all 500ms ease;
+transition: all 500ms ease;
+height: 65px;
+width: 120PX;
+background-color: #f1f1f5;
+border-radius: 32PX;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+margin: 0 auto;
+font-size: 14px;
+line-height: 18px;
+}
+
+.btn2-get-started:hover {
+background-color: #ee37b9;
+color: #fbdf4d;
+}
+
+.service2-list {
+text-align: left;
+padding: 0 20px 20px;
+list-style: none;
+}
+
+.service2-list li {
+padding: 5px 0;
+border-left: 3px solid #ee37b9; /* Or use brand color */
+}
+
+.service2-footer {
+padding: 20px;
+background: #112d4e; /* Adjust color for contrast */
+}
+
+.btn2-call-now {
+text-decoration: none;
+background: #ee37b9; /* Or use brand color */
+color: #ffffff;
+padding: 10px 20px;
+border-radius: 20px;
+display: inline-block;
+font-weight: 700;
+}
+
+.btn2-call-now:hover {
+background-color: #dc2a95; /* Darker shade for hover effect */
 }

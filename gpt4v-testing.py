@@ -2,7 +2,7 @@ import base64
 import requests
 
 # OpenAI API Key
-api_key = "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"
+api_key = "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"
 
 # Function to encode the image
 def encode_image(image_path):
@@ -10,7 +10,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 # Path to your image
-image_path = "for vision/faq.png"
+image_path = "for vision/service box.png"
 # image_path2 = "Screenshot (4).png"
 # image_path3 =  "Screenshot (5).png"
 # image_path4 =  "Screenshot (6).png"
@@ -46,7 +46,53 @@ payload = {
             "type": "text",
             "text": 
                     """
- This is a section of the home page from a website that i am developing for a client. Analyze and then give recommendations on what can/should be changed or improved.
+ i am making a website for a digital marketing agency named Viral Edge. currently this is how the services section is bulit, but the client gave feednack that its very plain and simple so i fhave tried to find inspiration on the we and found this image. use the image and help me build it. remember to make it similar to the picture. here is the current code for the services though:
+ <section class="services-one pink-back" id="services">
+        <div
+          class="services-one-bg"
+          style="
+            background-image: url(assets/images/backgrounds/services-one-bg.jpg);
+          "
+        ></div>
+        <div class="container">
+          <div class="section-title text-center" data-aos="fade-down">
+            <!-- <span class="section-title__tagline">Our services list</span> -->
+            <h2 class="section-title__title" style="color: #ee37b9">
+              What we’re offering
+            </h2>
+          </div>
+          <div class="row">
+            <!--Service: Storytelling-->
+            <div class="col-md-4 col-sm-6" data-aos="fade-right">
+              <div class="services-one__single">
+                <div class="services-one__icon">
+                  <span class="fa-solid fa-user"></span>
+                  <!-- Replace with appropriate icon class -->
+                </div>
+                <h3 class="services-one__title">
+                  <a
+                    aria-label="link to story telling service page "
+                    href="services - storytelling.html"
+                    >Storytelling</a
+                  >
+                </h3>
+                <p class="services-one__text">
+                  Creating content that entertains, interests, and is useful
+                  enough to engage audiences and encourage interaction.
+                </p>
+                <a
+                  href="services - storytelling.html"
+                  aria-label="link to story telling service page "
+                  class="service-one__arrow"
+                >
+                  <span class="icon-right-arrow"></span>
+                </a>
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+                    
                     """
           },
           {
