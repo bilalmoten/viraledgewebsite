@@ -176,7 +176,7 @@ ul {
   margin: 0 auto;
   width: 100%;
   min-width: 300px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -8171,6 +8171,7 @@ body.boxed-wrapper {
   position: relative;
   display: block;
   padding: 120px 0 120px;
+  overflow: visible;
 }
 
 .reasons__left {
@@ -8191,6 +8192,7 @@ body.boxed-wrapper {
 
 .reasons__right .section-title {
   margin-bottom: 23px;
+
 }
 
 .reasons__text {
@@ -11991,4 +11993,9 @@ font-weight: 700;
 
 .btn2-call-now:hover {
 background-color: #dc2a95; /* Darker shade for hover effect */
+}
+
+.reasons__right2 {
+  position: sticky;
+  top: 50px;
 }
